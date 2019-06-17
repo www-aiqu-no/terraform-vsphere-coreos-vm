@@ -1,8 +1,7 @@
-module "coreos-vm" {
-  source  = "www-aiqu-no/coreos-vm/vsphere"
-  version = "0.0.1"
+module "example_vm" {
+  source = "github.com/www-aiqu-no/terraform-vsphere-coreos-vm.git?ref=v0.0.1"
 # ------------------------------------------------------------------------------
-  hosts    = ["my-vsphere-host"]
+  hosts  = ["my-vsphere-host"]
   ssh_keys = ["list","with","ssh-key(s)"]
 # ------------------------------------------------------------------------------
   datacenter        = "some-vsphere-datacenter"
