@@ -13,3 +13,8 @@ module "my_module_name" {
 3) Run 'terraform get' to download module
 
 See 'example' folder & variables for configuration-options
+
+## Custom Attributes (v0.0.2)
+If you already have custom attributes defined, these can be included by
+importing the id via "data-source", and adding attributes under the
+"custom_attributes" map (ref. example)
