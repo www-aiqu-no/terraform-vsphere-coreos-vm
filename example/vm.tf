@@ -12,7 +12,7 @@ module "coreos-vm" {
   vsphere_folder    = "some-vsphere-folder"
 # ------------------------------------------------------------------------------
   name     = "my-vm-prefix"
-  template = "name-of-coreos-base-template"
+  template = "coreos-template"
 # ------------------------------------------------------------------------------
   #cpu     = 2
   #ram_mb  = 2048
