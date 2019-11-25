@@ -1,5 +1,5 @@
 module "example_vm" {
-  source = "github.com/www-aiqu-no/terraform-vsphere-coreos-vm.git?ref=v0.0.2"
+  source = "github.com/www-aiqu-no/terraform-vsphere-coreos-vm.git?ref=v0.1.0"
 # ------------------------------------------------------------------------------
   hosts  = ["my-vsphere-host"]
   ssh_keys = ["list","with","ssh-key(s)"]
