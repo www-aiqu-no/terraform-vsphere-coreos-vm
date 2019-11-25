@@ -1,11 +1,12 @@
 # terraform-vsphere-coreos-vm
 Deploy CoreOS virtual machine to vSphere cluster
+Updated for terraform v0.12.x (tested w/0.12.16)
 
 ## Using the modules (from github)
 1) Use the following module-block in your terraform-code:
 ```hcl
 module "my_module_name" {
-  source "github.com:www-aiqu-no/terraform-vsphere-coreos-vm.git?ref=v0.0.1"
+  source "github.com:www-aiqu-no/terraform-vsphere-coreos-vm.git?ref=v0.1.0"
   ...
 }
 ```
